@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project_06</string>
+    <string name="btn1">One string item</string>
+    <string name="btn2">Simple item layout</string>
+    <string name="btn3">Two strings item</string>
+    <string name="btn4">Custom</string>
+</resources>
