@@ -16,4 +16,16 @@
         <item>Main title 8</item>
         <item>Main title 9</item>
     </string-array>
+    <string-array name="listItemSubTitles">
+        <item>Sub title 0</item>
+        <item>Sub title 1</item>
+        <item>Sub title 2</item>
+        <item>Sub title 3</item>
+        <item>Sub title 4</item>
+        <item>Sub title 5</item>
+        <item>Sub title 6</item>
+        <item>Sub title 7</item>
+        <item>Sub title 8</item>
+        <item>Sub title 9</item>
+    </string-array>
 </resources>

@@ -31,7 +31,7 @@ public class OneStringItemActivity extends AppCompatActivity {
 
     private void initListView() {
         lvListItems.setAdapter(new ArrayAdapter<String>(
-                getApplicationContext(), android.R.layout.simple_expandable_list_item_1, listItems)
+                getApplicationContext(), android.R.layout.simple_list_item_1, listItems)
         );
 
         lvListItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {

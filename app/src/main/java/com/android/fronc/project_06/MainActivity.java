@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SimpleItemLayoutActivity.class);
         startActivity(intent);
     }
+
+    public void openTwoStringItemActivity(View view) {
+        Intent intent = new Intent(this, TwoStringItemActivity.class);
+        startActivity(intent);
+    }
 }
