@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OneStringItemActivity.class);
         startActivity(intent);
     }
+
+    public void openSimpleItemActivity(View view) {
+        Intent intent = new Intent(this, SimpleItemLayoutActivity.class);
+        startActivity(intent);
+    }
 }
