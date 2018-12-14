@@ -4,7 +4,7 @@
     <string name="btn2">Simple item layout</string>
     <string name="btn3">Two strings item</string>
     <string name="btn4">Custom</string>
-    <string-array name="listItems">
+    <string-array name="listItemTitles">
         <item>Main title 0</item>
         <item>Main title 1</item>
         <item>Main title 2</item>

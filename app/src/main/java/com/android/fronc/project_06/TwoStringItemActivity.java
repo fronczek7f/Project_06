@@ -31,7 +31,7 @@ public class TwoStringItemActivity extends AppCompatActivity {
 
     private void initResource() {
         Resources resources = getResources();
-        listItemTitles = resources.getStringArray(R.array.listItems);
+        listItemTitles = resources.getStringArray(R.array.listItemTitles);
         listItemSubTitles = resources.getStringArray(R.array.listItemSubTitles);
     }
 
@@ -54,7 +54,7 @@ public class TwoStringItemActivity extends AppCompatActivity {
         lvListItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), listItemTitles[position], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), listItemTitles[position] + "\n" + listItemSubTitles[position], Toast.LENGTH_SHORT).show();
             }
         });
     }

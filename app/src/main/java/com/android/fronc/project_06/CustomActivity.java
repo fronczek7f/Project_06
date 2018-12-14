@@ -31,7 +31,7 @@ public class CustomActivity extends AppCompatActivity {
 
     private void initResources() {
         Resources res = getResources();
-        title = res.getStringArray(R.array.listItems);
+        title = res.getStringArray(R.array.listItemTitles);
         subTitle = res.getStringArray(R.array.listItemSubTitles);
     }
 
@@ -41,7 +41,7 @@ public class CustomActivity extends AppCompatActivity {
 
         lvCustom.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int pos, long id) {
-                Toast.makeText(CustomActivity.this, title[pos], Toast.LENGTH_SHORT).show();
+                Toast.makeText(CustomActivity.this, title[pos] + "\n" + subTitle[pos], Toast.LENGTH_SHORT).show();
             }
         });
     }

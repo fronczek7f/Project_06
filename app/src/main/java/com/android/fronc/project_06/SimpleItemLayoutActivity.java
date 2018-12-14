@@ -26,7 +26,7 @@ public class SimpleItemLayoutActivity extends AppCompatActivity {
 
     private void initResource() {
         Resources resources = getResources();
-        listItems = resources.getStringArray(R.array.listItems);
+        listItems = resources.getStringArray(R.array.listItemTitles);
     }
 
     private void initListView() {
